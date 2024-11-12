@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Source+Sans+3:wght@400;600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Source+Sans+3:wght@400;600;700&display=swap"
     rel="stylesheet">
 
   <!-- CSS  -->
@@ -50,25 +50,14 @@
 
             <div class="nav-row-1">
               <ul class="menu">
-                <li class="menu_item menu-1-link"><a href="#" class="menu-link">Login</a></li>
-                <li class="menu_item menu-1-link"><a href="#" class="menu-link">Register</a></li>
-                <li class="menu_item menu-1-link"><a href="tel:4722845816" class="menu-link img-link"><img
-                      src="img/phone.svg" alt="">472.284.5816</a>
-                </li>
-                <li class="menu_item menu-1-link"><a href="mailto:lindagibson@realestate.com"
-                    class="menu-link img-link"><img src="img/email.svg" alt="">Email</a>
-                </li>
-
-
                 <li class="menu_item menu-2-link"><a href="index.html" class="menu-link">Home</a></li>
                 <li class="menu_item menu-2-link"><a href="#search" class="menu-link">Property Search</a></li>
                 <li class="menu_item menu-2-link "><a href="#featured" class="menu-link ">Featured Properties</a>
                 </li>
 
-                <li class="menu_item menu-2-link"><a href="#sold" class="menu-link">Sold Properties</a></li>
+                <li class="menu_item menu-2-link"><a href="#about" class="menu-link">About Me</a></li>
                 <li class="menu_item menu-2-link"><a href="#blog" class="menu-link">Blog</a></li>
-                <li class="menu_item menu-2-link"><a href="#about" class="menu-link">About</a></li>
-                <li class="menu_item menu-2-link"><a href="#contact" class="menu-link">Contact</a></li>
+                <li class="menu_item menu-2-link"><a href="#contact" class="menu-link">Contact Me</a></li>
               </ul>
             </div>
 
@@ -79,10 +68,9 @@
                 <li class=" services-item "><a href="#featured" class="menu-link ">Featured Properties</a>
                 </li>
 
-                <li class="menu_item"><a href="#sold" class="menu-link">Sold Properties</a></li>
+                <li class="menu_item"><a href="#about" class="menu-link">About Me</a></li>
                 <li class="menu_item"><a href="#blog" class="menu-link">Blog</a></li>
-                <li class="menu_item"><a href="#about" class="menu-link">About</a></li>
-                <li class="menu_item"><a href="#contact" class="menu-link">Contact</a></li>
+                <li class="menu_item"><a href="#contact" class="menu-link">Contact Me</a></li>
               </ul>
             </div>
           </div>
@@ -106,12 +94,12 @@
         <div class="container hero-container">
 
           <div class="hero-div">
-            <p>WASHINGTON, DISTRICT OF COLUMBIA, UNITED STATES</p>
             <h1>Linda Gibson</h1>
-            <h3>REAL ESTATE PROFESSIONAL</h3>
+            <h3>Real Estate Professional</h3>
+            <p>WASHINGTON, DISTRICT OF COLUMBIA, UNITED STATES</p>
             <div>
 
-              <div class="btn-div btn-primary"><a href="#">send me a message</a></div>
+              <div class="btn-div btn-primary"><a href="#contact">contact me</a></div>
 
             </div>
           </div>
@@ -136,18 +124,21 @@
 
 
                 <div class="form-group">
-                  <label for="select1">Location</label>
-                  <div class="select-wrapper">
-                    <select id="select1" name="select1">
-                      <option value="">Address</option>
-                      <option value="option1">Option 1</option>
-                      <option value="option2">Option 2</option>
-                      <option value="option3">Option 3</option>
-                    </select>
+                  <div class="label-img">
+                    <img src="img/map-pin.svg" alt="location">
+                    <label for="select1">Location</label>
+                  </div>
+                  <div class="input-wrapper">
+                    <input id="select1" name="select1" placeholder="Address">
+                    </input>
                   </div>
                 </div>
+
                 <div class="form-group">
-                  <label for="select2">Type</label>
+                  <div class="label-img">
+                    <img src="img/house.svg" alt="type">
+                    <label for="select2">Type</label>
+                  </div>
                   <div class="select-wrapper">
                     <select id="select2" name="select2">
                       <option value="">Any</option>
@@ -157,55 +148,72 @@
                     </select>
                   </div>
                 </div>
+
                 <div class="form-group">
-                  <label for="select3">Beds</label>
+                  <div class="label-img">
+                    <img src="img/bed.svg" alt="bed">
+                    <label for="select3">Beds</label>
+                  </div>
                   <div class="select-wrapper">
                     <select id="select3" name="select3">
                       <option value="">Any</option>
-                      <option value="option1">Option 1</option>
-                      <option value="option2">Option 2</option>
-                      <option value="option3">Option 3</option>
+                      <option value="option1">1</option>
+                      <option value="option2">2</option>
+                      <option value="option3">3</option>
+                      <option value="option3">4</option>
+                      <option value="option3">5</option>
                     </select>
 
                   </div>
                 </div>
+
                 <div class="form-group">
-                  <label for="select4">Baths</label>
+                  <div class="label-img">
+                    <img src="img/bath.svg" alt="bath">
+                    <label for="select4">Baths</label>
+                  </div>
                   <div class="select-wrapper">
                     <select id="select4" name="select4">
                       <option value="">Any</option>
-                      <option value="option1">Option 1</option>
-                      <option value="option2">Option 2</option>
-                      <option value="option3">Option 3</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="select5">Price From</label>
-                  <div class="select-wrapper">
-                    <select id="select5" name="select5">
-                      <option value="">Any</option>
-                      <option value="option1">Option 1</option>
-                      <option value="option2">Option 2</option>
-                      <option value="option3">Option 3</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="select6">Price To</label>
-                  <div class="select-wrapper">
-                    <select id="select6" name="select6">
-                      <option value="">Any</option>
-                      <option value="option1">Option 1</option>
-                      <option value="option2">Option 2</option>
-                      <option value="option3">Option 3</option>
+                      <option value="option1">1</option>
+                      <option value="option2">2</option>
+                      <option value="option3">3</option>
+                      <option value="option3">3</option>
+                      <option value="option3">3</option>
                     </select>
                   </div>
                 </div>
 
+                <div class="form-group">
+                  <div class="label-img">
+                    <img src="img/dollar.svg" alt="price">
+                    <label for="select5">Price From</label>
+                  </div>
+                  <div class="input-wrapper">
+                    <input id="select5" name="select5" placeholder="Any">
+                    </input>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="label-img">
+                    <img src="img/dollar.svg" alt="price">
+                    <label for="select6">Price To</label>
+                  </div>
+                  <div class="input-wrapper">
+                    <input id="select6" name="select6" placeholder="Any">
+                    </input>
+                  </div>
+                </div>
+
+                <!-- <button class="search-btn btn-div" type="submit">Search</button> -->
               </div>
 
-              <button class="search-btn btn-div btn-primary" type="submit">Search</button>
+              <!-- <div> -->
+              <button class="search-btn btn-div" type="submit">Search</button>
+              <!-- </div> -->
+
+
             </form>
           </div>
 
@@ -221,71 +229,128 @@
         <div class="container featured-container">
 
           <h2>Featured Properties</h2>
-          <a href="#">View All Featured Properties</a>
+
 
           <div class="featured-grid">
 
+
             <div class="featured-prop">
               <img src="img/featured-1.jpg" alt="featured-property-1" loading="lazy">
-              <h4>3816 Illinois awenue NW, washington 20850</h4>
-              <p>4 bedrooms, 3 bathrooms</p>
-              <div class="price-div">
-                <p>$988,000</p>
-                <div class="price-btn"><a href="#">View Details</a></div>
+              <div class="prop-content">
+                <h4>3816 Illinois awenue NW, Washington 20850</h4>
+                <p class="price-p">$988,000</p>
+                <div class="bed-bath">
+                  <div class="bed">
+                    <img src="img/bed.svg" alt="bed">
+                    <p class="bed-bath-p">4 bedrooms</p>
+                  </div>
+                  <div class="bath">
+                    <img src="img/bath.svg" alt="bath">
+                    <p class="bed-bath-p">3 bathrooms</p>
+                  </div>
+                </div>
+                <div class="details-btn"><a href="#">View Details</a></div>
               </div>
             </div>
 
             <div class="featured-prop">
               <img src="img/featured-2.jpg" alt="featured-property-2" loading="lazy">
-              <h4>3910 8th Street NW 2, washington 20011</h4>
-              <p>3 bedrooms, 3 bathrooms</p>
-              <div class="price-div">
-                <p>$849,000</p>
-                <div class="price-btn"><a href="#">View Details</a></div>
+              <div class="prop-content">
+                <h4>3910 8th Street NW 2, Washington 20011</h4>
+                <p class="price-p">$849,000</p>
+                <div class="bed-bath">
+                  <div class="bed">
+                    <img src="img/bed.svg" alt="bed">
+                    <p class="bed-bath-p">3 bedrooms</p>
+                  </div>
+                  <div class="bath">
+                    <img src="img/bath.svg" alt="bath">
+                    <p class="bed-bath-p">4 bathrooms</p>
+                  </div>
+                </div>
+                <div class="details-btn"><a href="#">View Details</a></div>
               </div>
             </div>
 
             <div class="featured-prop">
               <img src="img/featured-3.jpg" alt="featured-property-3" loading="lazy">
-              <h4>802 21st Street NE 3, washington 20002</h4>
-              <p>4 bedrooms, 3 bathrooms</p>
-              <div class="price-div">
-                <p>$1,149,000</p>
-                <div class="price-btn"><a href="#">View Details</a></div>
+              <div class="prop-content">
+                <h4>802 21st Street NE 3, Washington 20002</h4>
+                <p class="price-p">$1,149,000</p>
+                <div class="bed-bath">
+                  <div class="bed">
+                    <img src="img/bed.svg" alt="bed">
+                    <p class="bed-bath-p">4 bedrooms</p>
+                  </div>
+                  <div class="bath">
+                    <img src="img/bath.svg" alt="bath">
+                    <p class="bed-bath-p">3 bathrooms</p>
+                  </div>
+                </div>
+                <div class="details-btn"><a href="#">View Details</a></div>
               </div>
             </div>
 
             <div class="featured-prop">
               <img src="img/featured-4.jpg" alt="featured-property-4" loading="lazy">
-              <h4>5909 Nickolson Lane NW, Maryland 20852</h4>
-              <p>2 bedrooms, 2 bathrooms</p>
-              <div class="price-div">
-                <p>$978,000</p>
-                <div class="price-btn"><a href="#">View Details</a></div>
+              <div class="prop-content">
+                <h4>5909 Nickolson Lane NW, Maryland 20852</h4>
+                <p class="price-p">$974,000</p>
+                <div class="bed-bath">
+                  <div class="bed">
+                    <img src="img/bed.svg" alt="bed">
+                    <p class="bed-bath-p">2 bedrooms</p>
+                  </div>
+                  <div class="bath">
+                    <img src="img/bath.svg" alt="bath">
+                    <p class="bed-bath-p">3 bathrooms</p>
+                  </div>
+                </div>
+                <div class="details-btn"><a href="#">View Details</a></div>
               </div>
             </div>
 
             <div class="featured-prop">
               <img src="img/featured-5.jpg" alt="featured-property-5" loading="lazy">
-              <h4>3502 Gunston Road, Virginia 22302</h4>
-              <p>4 bedrooms, 3 bathrooms</p>
-              <div class="price-div">
-                <p>$679,000</p>
-                <div class="price-btn"><a href="#">View Details</a></div>
+              <div class="prop-content">
+                <h4>3502 Gunston Road,Virginia 22302</h4>
+                <p class="price-p">$697,000</p>
+                <div class="bed-bath">
+                  <div class="bed">
+                    <img src="img/bed.svg" alt="bed">
+                    <p class="bed-bath-p">3 bedrooms</p>
+                  </div>
+                  <div class="bath">
+                    <img src="img/bath.svg" alt="bath">
+                    <p class="bed-bath-p">4 bathrooms</p>
+                  </div>
+                </div>
+                <div class="details-btn"><a href="#">View Details</a></div>
               </div>
             </div>
 
             <div class="featured-prop">
               <img src="img/featured-6.jpg" alt="featured-property-6" loading="lazy">
-              <h4>802 21st Street NE 1, washington 20002</h4>
-              <p>2 bedrooms, 3 bathrooms</p>
-              <div class="price-div">
-                <p>$476,000</p>
-                <div class="price-btn"><a href="#">View Details</a></div>
+              <div class="prop-content">
+                <h4>802 21st Street NE 1, Washington 20002</h4>
+                <p class="price-p">$489,000</p>
+                <div class="bed-bath">
+                  <div class="bed">
+                    <img src="img/bed.svg" alt="bed">
+                    <p class="bed-bath-p">2 bedrooms</p>
+                  </div>
+                  <div class="bath">
+                    <img src="img/bath.svg" alt="bath">
+                    <p class="bed-bath-p">2 bathrooms</p>
+                  </div>
+                </div>
+                <div class="details-btn"><a href="#">View Details</a></div>
               </div>
             </div>
 
           </div>
+
+          <a href="#">View All Featured Properties</a>
 
           <!-- <div class="btn-div btn-primary"><a href="#">More Featured Properties</a></div> -->
 
@@ -306,20 +371,23 @@
             </div>
 
             <div class="about-right">
-              <p class="about-p">about Me</p>
-              <h2>Linda Gibson</h2>
-              <p>Hi, my name is Linda and I am a professional real estate agent. With an intimate knowledge of all the
-                neighborhoods of the nation's capital, I have a finger on the pulse of the Washington, DC metro area. My
-                proven skills and uniquely personal approach make me the best choice for listing or buying. I provide an
-                unparalleled, high level of customer service and trusted advice to my clients and friends. My corporate
-                experience gave me wonderful opportunities, but I decided that I was more interested in the housing
-                market and helping people find their dream homes. A big bonus was that I had more flexibility to be more
-                available for and involved with my family that I created through getting married in DC in 2010. Born in
-                Denver, Colorado, I combine decades of international sales experience, a winning personality, and strong
-                negotiating skills to distinguish myself among a handful of top-producing trilingual real estate agents
-                in the Washington metro area. I speak English, Spanish and Portuguese.</p>
+              <h2>About Me</h2>
+              <div class="about-ps">
+                <p>Hi, my name is Linda and I am a professional real estate agent. With an intimate knowledge of all the
+                  neighborhoods of the nation's capital, I have a finger on the pulse of the Washington, DC metro area.
+                </p>
 
-              <a href="#">Read More</a>
+                <p>My proven skills and uniquely personal approach make me the best choice for listing or buying. I
+                  provide an unparalleled, high level of customer service and trusted advice to my clients and friends.
+                  A big bonus was that I had more flexibility to be more available for and involved with my family that
+                  I created through getting married in DC in 2010. </p>
+
+                <p>Born in Denver, Colorado, I combine decades of international sales experience and strong negotiating
+                  skills to distinguish myself among a handful of top-producing multilingual real estate agents in the
+                  Washington metro area. I speak English, Spanish and Portuguese.</p>
+              </div>
+
+              <a href="#">Read more</a>
             </div>
           </div>
 
@@ -334,46 +402,85 @@
     <section id="sold">
       <div class="sold-fluid">
         <div class="container sold-container">
-
           <h2>Sold Properties</h2>
-          <a href="#">View All Sold Properties</a>
+
 
           <div class="sold-grid">
 
             <div class="sold-prop">
-              <img src="img/sold-1.jpg" alt="sold-property-1" loading="lazy">
-              <h4>5302 Nickolson Lane, Maryland 20852</h4>
-              <p>2 bedrooms, 3 bathrooms</p>
-              <div class="price-div">
-                <p>$753,000</p>
-                <div class="price-btn"><a href="#">View Details</a></div>
+              <div class="sold-img">
+                <img src="img/sold-1.jpg" alt="sold-property-1" loading="lazy">
+                <p class="sold-img-p">SOLD</p>
+              </div>
+
+              <div class="prop-content">
+                <h4>5302 Nickolson Lane, Maryland 20852</h4>
+                <p class="price-p">$754,000</p>
+                <div class="bed-bath">
+                  <div class="bed">
+                    <img src="img/bed.svg" alt="bed">
+                    <p class="bed-bath-p">2 bedrooms</p>
+                  </div>
+                  <div class="bath">
+                    <img src="img/bath.svg" alt="bath">
+                    <p class="bed-bath-p">3 bathrooms</p>
+                  </div>
+                </div>
+                <div class="details-btn"><a href="#">View Details</a></div>
               </div>
             </div>
 
             <div class="sold-prop">
-              <img src="img/sold-2.jpg" alt="sold-property-2" loading="lazy">
-              <h4>3504 Gunston Road, Virginia 22302</h4>
-              <p>4 bedrooms, 3 bathrooms</p>
-              <div class="price-div">
-                <p>$988,000</p>
-                <div class="price-btn"><a href="#">View Details</a></div>
+              <div class="sold-img">
+                <img src="img/sold-2.jpg" alt="sold-property-2" loading="lazy">
+                <p class="sold-img-p">SOLD</p>
+              </div>
+
+              <div class="prop-content">
+                <h4>3504 Gunston Road, Virginia 22302</h4>
+                <p class="price-p">$988,000</p>
+                <div class="bed-bath">
+                  <div class="bed">
+                    <img src="img/bed.svg" alt="bed">
+                    <p class="bed-bath-p">4 bedrooms</p>
+                  </div>
+                  <div class="bath">
+                    <img src="img/bath.svg" alt="bath">
+                    <p class="bed-bath-p">3 bathrooms</p>
+                  </div>
+                </div>
+                <div class="details-btn"><a href="#">View Details</a></div>
               </div>
             </div>
 
             <div class="sold-prop">
-              <img src="img/sold-3.jpg" alt="sold-property-3" loading="lazy">
-              <h4>801 21st Street NE 3, washington 20002</h4>
-              <p>2 bedrooms, 3 bathrooms</p>
-              <div class="price-div">
-                <p>$711,000</p>
-                <div class="price-btn"><a href="#">View Details</a></div>
+              <div class="sold-img">
+                <img src="img/sold-3.jpg" alt="sold-property-3" loading="lazy">
+                <p class="sold-img-p">SOLD</p>
+              </div>
+
+              <div class="prop-content">
+                <h4>801 21st Street NE 3, Washington 20002</h4>
+                <p class="price-p">$711,000</p>
+                <div class="bed-bath">
+                  <div class="bed">
+                    <img src="img/bed.svg" alt="bed">
+                    <p class="bed-bath-p">2 bedrooms</p>
+                  </div>
+                  <div class="bath">
+                    <img src="img/bath.svg" alt="bath">
+                    <p class="bed-bath-p">3 bathrooms</p>
+                  </div>
+                </div>
+                <div class="details-btn"><a href="#">View Details</a></div>
               </div>
             </div>
-
 
           </div>
 
-          <!-- <div class="btn-div btn-primary"><a href="#">More Featured Properties</a></div> -->
+
+          <a href="#">View All Sold Properties</a>
+
         </div>
       </div>
     </section>
@@ -384,48 +491,47 @@
       <div class="testimonials-fluid">
 
         <div class="container testimonials-container">
-
           <h2>What Clients Are Saying</h2>
 
-          <a href="#">View More Reviews</a>
 
           <div class="testimonials-grid">
 
             <div class="testimonial">
-              <p>Linda Gibson was lighting fast! She knows the local market and expertly got us from A to B in record
+              <p><span class="quotes">“</span>Linda Gibson was lighting fast! She knows the local market and expertly
+                got us from A to B in record
                 time. We saw the house we wanted, within a few hours she helped us get the offer in, and within 2 weeks
                 we closed on the house, just in time to get the kids registered to start school! She was also very
                 patient and listened to what were looking for. We couldn't have done it without her. If you know what
-                you want, and you want it fast, she's your choice!</p>
-              <a class="client" href="#"> M. Youle </a>
+                you want, and you want it fast, she's your choice!<span class="quotes">”</span></p>
+              <a class="client" href="#">— M. Youle </a>
             </div>
+
             <div class="testimonial">
-              <p>Linda is persistent and highly detail-oriented. I am so thankful to have worked with her on both
+              <p><span class="quotes">“</span>Linda is persistent and highly detail-oriented. I am so thankful to have
+                worked with her on both
                 the
                 sale and the purchase of a home, both of which happened in the blink of an eye. If we ever move (I
                 hate
-                moving!) We'll look to work with Linda again. She secured us great deals on both ends of a purchase.
+                moving!) We'll look to work with Linda again. She secured us great deals on both ends of a
+                purchase.<span class="quotes">”</span>
               </p>
-
-              <a class="client" href="#"> C. McCoy </a>
+              <a class="client" href="#">— C. McCoy </a>
             </div>
 
-            <div class="testimonial">
-              <p>Linda helped us sell our house. The property had been a rental and needed a significant facelift. At
-                our first walk-through, she brought her contractor and designer. Her suggestions were excellent and her
-                team was reliable and respectful of our budget. Without Linda, we would have been floundering trying to
-                manage a project from states away. Her contractor was the best I have worked with, her designer was
-                awesome, and Linda's personal touches and consistent communication made a huge impact. The day of
-                closing, the buyer threw a wrench in the works. Linda worked out a creative solution and closing went
-                forward. Many thanks Linda!</p>
-
-
-              <a class="client" href="#"> K. Morris </a>
-            </div>
+            <!-- <div class="testimonial">
+              <p><span class="quotes">“</span>Linda helped us sell our house. The property had been a rental and needed
+                a significant facelift. At our first walk-through, she brought her contractor and designer. Her
+                suggestions were excellent and her team was reliable and respectful of our budget. Without Linda, we
+                would have been floundering trying to manage a project from states away. Her contractor was the best I
+                have worked with, her designer was awesome, and Linda's personal touches and consistent communication
+                made a huge impact. Many thanks Linda!<span class="quotes">”</span></p>
+              <a class="client" href="#">— K. Morris </a>
+            </div> -->
 
           </div>
 
-          <!-- <div class="btn-div btn-secondary"><a href="#">read more reviews</a></div> -->
+          <a href="#">View More Reviews</a>
+
         </div>
       </div>
     </section>
@@ -438,61 +544,45 @@
         <div class="container blog-container">
 
           <h2>Blog</h2>
-          <a href="#">View More Articles</a>
+
 
           <div class="blog-grid">
 
             <div class="post">
               <img src="img/blog-1.jpg" alt="post-image" loading="lazy">
-              <h4>Summer Outdoor Finds From Target</h4>
-              <p class="post-date">Posted on June 25, 2024</p>
-              <a class="read-more" href="">Read More</a>
+              <div class="post-content">
+                <h4>Summer Outdoor Finds From Target</h4>
+                <p class="post-date">Posted on June 25, 2024</p>
+                <a class="read-more" href="">Read More</a>
+              </div>
             </div>
 
             <div class="post">
               <img src="img/blog-2.jpg" alt="post-image" loading="lazy">
-              <h4>Charming Vintage Condo on N Alberta Street</h4>
-              <p class="post-date">Posted on July 14, 2024</p>
-              <a class="read-more" href="">Read More</a>
+              <div class="post-content">
+                <h4>Charming Condo on N Alberta Street</h4>
+                <p class="post-date">Posted on July 14, 2024</p>
+                <a class="read-more" href="">Read More</a>
+              </div>
             </div>
 
             <div class="post">
               <img src="img/blog-3.jpg" alt="post-image" loading="lazy">
-              <h4>Summer 2024 Market Update Report</h4>
-              <p class="post-date">Posted on JUNE 04, 2024</p>
-              <a class="read-more" href="">Read More</a>
+              <div class="post-content">
+                <h4>Summer 2024 Market Update Report</h4>
+                <p class="post-date">Posted on JUNE 04, 2024</p>
+                <a class="read-more" href="">Read More</a>
+              </div>
             </div>
 
 
           </div>
 
-          <!-- <div class="btn-div btn-secondary"><a href="#">read more articles</a></div> -->
+          <a href="#">View More Articles</a>
+
+
         </div>
       </div>
-    </section>
-
-
-    <!-- Subscribe  -->
-    <section id="subscribe">
-      <div class="subscribe-fluid">
-        <div class="container subscribe-container">
-
-          <h2>Stay in touch</h2>
-          <p>Subscribe on my Newsletter and latest blog posts
-          </p>
-
-          <form id="subscribe-form">
-            <div class="email-address">
-              <input type="email" id="email" name="email" placeholder="Email Address" required>
-            </div>
-
-            <button class="subscribe-btn btn-div btn-primary" type="submit">Subscribe</button>
-          </form>
-
-        </div>
-
-      </div>
-
     </section>
 
 
@@ -505,14 +595,14 @@
           <div class="contact-grid">
 
             <div class="contact-left">
-              <h2>Linda Gibson</h2>
-              <h3>REAL ESTATE PROFESSIONAL</h3>
+              <h2>Contact Me</h2>
+              <!-- <h3>REAL ESTATE PROFESSIONAL</h3> -->
 
               <address>
                 <a href="#">
                   <div class="address-div">
                     <img src="img/map-pin.svg" alt="map">
-                    <p>176 Peach Park NE , Washington 20002</p>
+                    <p>176 Peach Park NE, Washington 20002</p>
                   </div>
                 </a>
 
@@ -530,29 +620,44 @@
                   </div>
                 </a>
 
-                <div class="socials">
-                  <a href="#"> <img src="img/logo-facebook.svg" alt="logo-facebook"></a>
-                  <a href="#"> <img src="img/logo-instagram.svg" alt="logo-instagram"></a>
-                  <a href="#"> <img src="img/logo-x.svg" alt="logo-x"></a>
-                  <a href="#"> <img src="img/logo-youtube.svg" alt="logo-youtube"></a>
-                </div>
+
               </address>
+
+              <div class="socials">
+                <a href="#"> <img src="img/logo-facebook.svg" alt="logo-facebook"></a>
+                <a href="#"> <img src="img/logo-instagram.svg" alt="logo-instagram"></a>
+                <a href="#"> <img src="img/logo-x.svg" alt="logo-x"></a>
+              </div>
+
+
+              <h3>Stay In Touch</h3>
+              <p>Subscribe on my Newsletter and latest blog posts
+              </p>
+
+              <form id="subscribe-form">
+                <div class="email-address">
+                  <input type="email" id="email" name="email" placeholder="Email Address" required>
+                </div>
+
+                <button class="subscribe-btn" type="submit">Subscribe</button>
+              </form>
+
             </div>
 
 
             <div class="contact-right">
-              <h3>Contact Me</h3>
+              <h3>Message Me</h3>
 
               <form id="book-form">
 
                 <div class="contact-name">
-                  <label for="name">*Full Name</label>
+                  <label for="name">Full Name (required)</label>
                   <input type="text" id="name" name="name" required>
                 </div>
 
 
                 <div class="contact-email">
-                  <label for="email">*Email</label>
+                  <label for="email">Email (required)</label>
                   <input type="email" id="email" name="email" required>
                 </div>
 
@@ -570,13 +675,12 @@
                 <div class="contact-p-div">
                   <p>By submitting this form, you acknowledge that you accept the Sotheby's International Realty Privacy
                     Policy and Terms of Use. </p>
-
-                  <p>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
                 </div>
 
-                <button class=" btn-div btn-primary contact-btn" type="submit">Send me a message</button>
+                <button class="message-btn" type="submit">Send a message</button>
               </form>
             </div>
+
           </div>
 
 
@@ -598,64 +702,68 @@
         <div class="footer-grid">
 
           <div class="footer-col-1">
-            <div class="realtor-icons">
-              <img src="img/realtor-1.png" alt="realtor-icon">
-              <img src="img/realtor-2.png" alt="realtor-icon">
+            <div class="footer-description">
+              <h3>Linda Gibson</h3>
+              <p class="prof">Real Estate Professional</p>
+              <p class="area">Washington, District Of Columbia,
+                United States</p>
             </div>
-
-            <div class="realtor-links">
-              <a href="">Agent Login</a>
-              <a href="">Guest Login</a>
-              <a href="">Accessibility ADA</a>
-            </div>
+            <p class="copyright copyright-desktop">©2024 Gibson Real Estate</p>
           </div>
 
           <div class="footer-col-2">
-            <p>ADA Compliance: In concurrence with the National Association of Realtors guidelines, Linda Gibson is
-              committed to providing an accessible website. If you have difficulty accessing content, have difficulty
-              viewing a file on the website, or notice any accessibility problems, please contact me at 472.284.5816 to
-              specify the nature of the accessibility issue and any assistive technology you use. We strive to provide
-              the content you need in the format you require.</p>
+            <ul class="footer-ul">
+              <li class="footer-item">
+                <h4>Navigation</h4>
+              </li>
+              <li class="footer-item"><a href="index.html">Home</a></li>
+              <li class="footer-item"><a href="#search">Property Search</a></li>
+              <li class="footer-item"><a href="#featured">Featured Properties</a>
+              </li>
+              <li class="footer-item"><a href="#sold">Sold Properties</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col-3">
+            <ul class="footer-ul">
+              <li class="footer-item">
+                <h4>Information</h4>
+              </li>
+              <li class="footer-item"><a href="#about">About Me</a></li>
+              <li class="footer-item"><a href="#testimonials">Testimonials</a></li>
+              <li class="footer-item"><a href="#blog">Blog</a></li>
+              <li class="footer-item"><a href="#contact">Contact Me</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col-4">
+            <ul class="footer-ul">
+              <li class="footer-item">
+                <h4>About</h4>
+              </li>
+              <li class="footer-item"><a href="#">Terms Of Use</a></li>
+              <li class="footer-item"><a href="#blog">Privacy Policy</a></li>
+              <li class="footer-item"><a href="#contact">Accessibility</a></li>
+            </ul>
           </div>
 
 
-
+          <div>
+            <p class="copyright copyright-mobile">©2024 Gibson Real Estate</p>
+          </div>
         </div>
+
 
       </div>
     </div>
 
-    <div class="footer-sub">
-      <div class="footer-sub-fluid">
-        <div class="container footer-sub-container">
-          <div class="footer-copyright">
-            <p class="copyright">©2024 Gibson Real Estate</p>
 
-            <div class="terms">
-              <a href="#">Terms Of Service </a>
-              <a href="#">Privacy Policy</a>
-              <a href="#">Accessibility</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
   </footer>
 
 
   <!-- Up  -->
   <div class="up-div"><a href="#up" class="pageup"><img src="img/arrow-up.svg" alt="up"></a></div>
 
-
-  <!-- Sticky contact buttons  -->
-  <div class="sticky-contact-menu">
-    <a href="#" class="menu-sticky-link">Login</a>
-    <a href="#" class=" menu-sticky-link">Register</a>
-    <a href="tel:4722845816" class="img-link menu-sticky-link"><img src="img/phone-white.svg" alt="">Call</a>
-    <a href="mailto:lindagibson@realestate.com" class="img-link menu-sticky-link"><img src="img/email-white.svg"
-        alt="">Email</a>
-  </div>
 
   <!-- JS  -->
   <script src="js/script.min.js" defer></script>
