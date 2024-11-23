@@ -263,7 +263,7 @@ button:focus {
 }
 
 .hero-div {
-    background-color: rgba(var(--white), .98);
+    background-color: rgba(var(--white), 1);
 }
 
 .featured-container>a,
