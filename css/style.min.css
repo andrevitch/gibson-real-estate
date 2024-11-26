@@ -555,6 +555,23 @@ header {
 } */
 
 
+/* Reveal sections  */
+.section {
+    -webkit-transition: opacity .1s, -webkit-transform .7s;
+    transition: opacity .1s, -webkit-transform .7s;
+    -o-transition: transform .7s, opacity .1s;
+    transition: transform .7s, opacity .1s;
+    transition: transform .7s, opacity .1s, -webkit-transform .7s;
+}
+
+.section--hidden {
+    opacity: 0;
+    -webkit-transform: translateY(8rem);
+    -ms-transform: translateY(8rem);
+    transform: translateY(8rem);
+}
+
+
 /* Mobile  */
 @media only screen and (max-width: 767px) {
 
