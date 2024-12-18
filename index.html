@@ -91,20 +91,72 @@
     <section>
       <div class="container-fluid hero-fluid">
 
-        <div class="container hero-container">
+        <!-- start -->
+        <!-- <picture> -->
+        <!-- <source srcset="img/hero.jpg" class="fallback-image" media="(max-width: 768px)"> -->
 
+        <!-- Video for larger screens -->
+        <!-- <video autoplay muted loop playsinline class="hero-video">
+            <source src="video/uhd_30fps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </picture> -->
+
+
+        <!-- working version:  -->
+        <!-- <img src="img/hero.jpg" alt="Video background" class="fallback-image">
+
+        <video autoplay muted loop playsinline class="hero-video">
+          <source src="video/uhd_30fps.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video> -->
+
+        <!-- end  -->
+
+
+        <!-- <div class="container hero-container">
           <div class="hero-div">
             <h1>Linda Gibson</h1>
             <h3>Real Estate Professional</h3>
             <p>WASHINGTON, DISTRICT OF COLUMBIA, UNITED STATES</p>
             <div>
-
               <div class="btn-div btn-primary"><a href="#contact">contact me</a></div>
-
             </div>
           </div>
+        </div> -->
 
+
+
+        <!-- Picture and Video Wrapper -->
+        <div class="media-wrapper">
+          <picture>
+            <!-- Fallback Image for Mobile and Loading -->
+            <source srcset="img/hero.jpg" class="fallback-image" media="(max-width: 768px)">
+            <img src="img/hero.jpg" alt="Background Image" class="fallback-image">
+          </picture>
+
+          <!-- Video for Larger Screens -->
+          <video autoplay muted loop playsinline class="hero-video" id="hero-video">
+            <source src="video/hero.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
+
+        <!-- Hero Content -->
+        <div class="container hero-container">
+          <div class="hero-div">
+            <h1>Linda Gibson</h1>
+            <h3>Real Estate Professional</h3>
+            <p>WASHINGTON, DISTRICT OF COLUMBIA, UNITED STATES</p>
+            <div>
+              <div class="btn-div btn-primary"><a href="#contact">contact me</a></div>
+            </div>
+          </div>
+        </div>
+
+
+
+
 
       </div>
 
