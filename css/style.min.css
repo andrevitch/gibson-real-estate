@@ -143,6 +143,10 @@ address {
     font-style: normal;
 }
 
+.testimonial p {
+    font-style: italic;
+}
+
 
 /* Colors  */
 /* Color Variables */
