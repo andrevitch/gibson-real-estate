@@ -341,8 +341,12 @@ header {
 
     /* video for  */
     width: 100%;
+    /* width: 100vw; */
+    /* width: calc(100% + 4px); */
     height: 100vh;
     overflow: hidden;
+    border: none;
+    left: -2px;
 
     /* display: flex;
     justify-content: center;
@@ -352,13 +356,22 @@ header {
 }
 
 .media-wrapper {
+    /* border: 1px solid red; */
     position: absolute;
     top: 0;
-    left: 0;
+    /* left: -1px; */
     width: 100%;
-    height: 100%;
+    /* width: 100vw; */
+    /* height: 100%; */
     z-index: -1;
     /* Ensure it's behind content */
+}
+
+picture {
+    /* border: 1px solid green; */
+    /* width: 100%;
+    border: none; */
+
 }
 
 .hero-video {
@@ -368,8 +381,7 @@ header {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
     -o-object-fit: cover;
     object-fit: cover;
     z-index: -1;
@@ -378,8 +390,8 @@ header {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100%;
-    height: 100%;
+    width: 104%;
+    height: 104%;
     transform: translate(-50%, -50%);
     object-fit: cover;
     /* Ensures the video scales appropriately */
@@ -495,7 +507,7 @@ header {
 }
 
 .details-btn a {
-    color: rgba(var(--brand-dark), 1);
+    color: rgba(var(--brand-dark), .9);
     font-weight: 700;
     /* letter-spacing: 1px; */
 }
@@ -2762,7 +2774,7 @@ header {
         margin-top: auto;
         cursor: pointer;
         padding: .8rem 2.4rem;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         line-height: 2rem;
     }
 
@@ -2870,8 +2882,8 @@ header {
     }
 
     .details-btn a {
-        font-size: 1.8rem;
-        line-height: 2rem;
+        font-size: 1.6rem;
+        line-height: 1.6rem;
         padding: .8rem 1.6rem;
     }
 
