@@ -767,7 +767,9 @@ header {
     }
 
     .menu .menu_item a {
-        font-size: 1.6rem;
+        /* font-size: 1.6rem;
+        line-height: 2rem; */
+        font-size: 2rem;
         line-height: 2rem;
     }
 
@@ -3344,6 +3346,13 @@ header {
     .pageup img {
         width: 3.6rem;
     }
+
+    /* Hover  */
+    .footer-col-2 ul li a:hover,
+    .footer-col-3 ul li a:hover,
+    .footer-col-4 ul li a:hover {
+        text-decoration: underline;
+    }
 }
 
 
@@ -3375,13 +3384,13 @@ header {
         top: 0rem;
         left: -100%;
         width: 100%;
-        gap: 3.2rem;
+        gap: 4rem;
         height: 100vh;
         background-color: rgba(var(--white), 1);
         -webkit-transition: 0.6s all;
         -o-transition: 0.6s all;
         transition: 0.6s all;
-        padding-top: 8rem;
+        padding-top: 4rem;
         justify-content: center;
 
     }
@@ -3397,7 +3406,7 @@ header {
     }
 
     .menu_item a {
-        font-size: 1.8rem;
+        font-size: 2.4rem;
     }
 
     .menu-1-link {
