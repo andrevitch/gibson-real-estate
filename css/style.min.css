@@ -1008,20 +1008,13 @@ header {
         align-items: center;
     }
 
-    .about-left,
-    .about-right {
-        /* width: calc(50% - 4rem); */
-    }
-
-    .about-left {
-        /* margin-right: auto; */
-
-    }
-
     .about-left img {
         width: 100%;
         height: auto;
         /* margin-right: auto; */
+        -webkit-box-shadow: 0px 1px 6px 0px rgba(41, 53, 65, 0.18);
+        -moz-box-shadow: 0px 1px 6px 0px rgba(41, 53, 65, 0.18);
+        box-shadow: 0px 1px 6px 0px rgba(41, 53, 65, 0.18);
     }
 
     .about-right h2 {
@@ -1908,6 +1901,9 @@ header {
     .about-left img {
         width: 100%;
         height: auto;
+        -webkit-box-shadow: 0px 2px 8px 0px rgba(41, 53, 65, 0.18);
+        -moz-box-shadow: 0px 2px 8px 0px rgba(41, 53, 65, 0.18);
+        box-shadow: 0px 2px 8px 0px rgba(41, 53, 65, 0.18);
     }
 
     .about-right h2 {
@@ -2801,6 +2797,9 @@ header {
     .about-left img {
         width: 100%;
         height: auto;
+        -webkit-box-shadow: 0px 4px 8px 0px rgba(41, 53, 65, 0.18);
+        -moz-box-shadow: 0px 4px 8px 0px rgba(41, 53, 65, 0.18);
+        box-shadow: 0px 4px 8px 0px rgba(41, 53, 65, 0.18);
     }
 
     .about-right h2 {
